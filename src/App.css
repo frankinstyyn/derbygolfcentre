@@ -17,7 +17,7 @@ body {
   --primaryColor: #218a38;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --mainBlack: rgb(0, 0, 0);
   --mainBlue: #0c1248;
   --mainGrey: #b2b2b2;
   --darkGrey: #cfcfcf;
@@ -292,7 +292,11 @@ h6 {
 /* end of navbar */
 /* Hero */
 .defaultHero,
-.servicesHero {
+.servicesHero,
+.shopHero,
+.lessonHero,
+.timesHero,
+.rangeHero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,6 +317,34 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.shopHero {
+  background: linear-gradient(var(--darkOverlay)),
+    url("./images/golfImages/proShop.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.lessonHero {
+  background: linear-gradient(var(--darkOverlay)),
+    url("./images/golfImages/proShop.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.timesHero {
+  background: linear-gradient(var(--darkOverlay)),
+    url("./images/golfImages/externalRange.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.rangeHero {
+  background: linear-gradient(var(--darkOverlay)),
+    url("./images/golfImages/drivingRange.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 /* End of Hero */
 /* Banner */
 .banner {
@@ -329,12 +361,6 @@ h6 {
   font-size: 2.5rem;
   font-weight: 500;
 }
-/* .banner div {
-  width: 10rem;
-  height: 5px;
-  background: var(--primaryColor);
-  margin: 1.7rem auto;
-} */
 .banner p {
   font-size: 1.8rem;
   margin-bottom: 2rem;
@@ -356,6 +382,14 @@ h6 {
   }
 }
 /* End of Banner */
+.mainWording {
+  width: 70%;
+  margin: 0 auto;
+}
+.shopWording {
+  font-size: 1.5rem;
+  margin: 4% 0;
+}
 /* Title */
 .title br {
   border: solid 1x red;
@@ -484,13 +518,8 @@ h6 {
 #golfBtn {
   background-color: var(--mainWhite);
 }
-.row button {
-  position: relative;
-  top: 50%;
-  background-color: var(--primaryColor);
-  border: 5px solid black;
-  width: 90%;
-  height: 20%;
+#golfBtn:hover {
+  background-color: var(--mainBlack);
 }
 .row button {
   position: relative;
@@ -499,6 +528,12 @@ h6 {
   border: 5px solid black;
   width: 90%;
   height: 20%;
+  transition: 1s;
+}
+.row button:hover {
+  background-color: var(--mainBlack);
+  border: 5px solid var(--mainBlack);
+  color: white;
 }
 .row p {
   font-size: 2.8rem;
@@ -653,6 +688,21 @@ h6 {
 span svg {
   font-size: 2.5rem;
   color: var(--primaryColor);
+}
+.shopButton {
+  position: relative;
+  background-color: var(--primaryColor);
+  border: 5px solid black;
+  width: 70%;
+  font-size: 2rem;
+  margin: 0 15% 2%;
+  transition: 1s;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.shopButton:hover {
+  background-color: var(--mainBlack);
+  color: white;
 }
 
 /* Footer */
