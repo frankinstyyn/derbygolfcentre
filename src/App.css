@@ -303,7 +303,7 @@ h6 {
   vertical-align: middle;
   padding: 0;
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/rangeBalls.jpg");
+    url("./images/rangeBalls.JPEG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -312,7 +312,7 @@ h6 {
 }
 .servicesHero {
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/rangeBalls.jpg");
+    url("./images/rangeBalls.JPEG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -326,8 +326,8 @@ h6 {
 }
 .lessonHero {
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/golfImages/proShop.jpeg");
-  background-size: cover;
+    url("./images/golfImages/danTeaching.JPEG");
+  /* background-size: cover; */
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -506,14 +506,14 @@ h6 {
   text-transform: uppercase;
 }
 .drivingRange {
-  background-image: url("./images/drivingRange.jpg");
+  background-image: url("./images/drivingRange.JPEG");
   margin-left: 1.5% !important;
 }
 .golfShop {
-  background-image: url("./images/golfImages/golfShop.jpeg");
+  background-image: url("./images/golfImages/golfShop.jpg");
 }
 .clubServices {
-  background-image: url("./images/golfImages/clubServices.jpeg");
+  background-image: url("./images/golfImages/clubServices.jpg");
 }
 #golfBtn {
   background-color: var(--mainWhite);
