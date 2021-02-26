@@ -310,6 +310,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   height: 50vh;
+  margin-top: 10%;
 }
 .servicesHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -327,26 +328,17 @@ h6 {
 }
 .contentContainer {
   position: relative;
-  margin-bottom: 2%;
-  height: 100vh;
-}
-.lessonHero {
-  background: linear-gradient(var(--darkOverlay)), url("./images/danMain.jpeg");
-  background-size: cover;
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
 }
 .danImageContainer {
-  background: url("./images/golfImages/danTeaching.JPEG");
-  background-size: cover;
+  background: url("./images/danMain.jpeg");
+  background-size: contain;
   background-position: 50% 25%;
   background-repeat: no-repeat;
-  height: 30rem;
+  width: 90%;
 }
 .lessonsContainer {
+  padding: 0 !important;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 .row .lessonsContainer p {
   font-size: 1.5rem;

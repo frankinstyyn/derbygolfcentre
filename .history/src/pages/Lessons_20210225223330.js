@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <>
       <ProLessons />
-      {/* <Hero hero="lessonHero">
+      <Hero hero="lessonHero">
         <Banner>
           <button>Book a Lesson Now</button>
       </Banner>
-      </Hero> */}
+      </Hero>
       <Footer />
       </>
   );

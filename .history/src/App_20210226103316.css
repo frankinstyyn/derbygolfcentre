@@ -345,8 +345,7 @@ h6 {
 }
 .lessonsContainer {
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0 auto;
 }
 .row .lessonsContainer p {
   font-size: 1.5rem;

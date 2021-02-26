@@ -9,7 +9,6 @@
 html,
 body {
   overflow-x: hidden;
-  padding-top: 65px;
 }
 body {
   position: relative;
@@ -28,7 +27,6 @@ body {
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --whiteOverlay: rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3);
   --darkOverlay: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
-  --lessonOverlay: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
 /* globals */
 body {
@@ -310,6 +308,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   height: 50vh;
+  margin-top: 10%;
 }
 .servicesHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -325,34 +324,11 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.contentContainer {
-  position: relative;
-  margin-bottom: 2%;
-  height: 100vh;
-}
 .lessonHero {
   background: linear-gradient(var(--darkOverlay)), url("./images/danMain.jpeg");
   background-size: cover;
-  background-position: 50% 25%;
+  background-position: 50% 40%;
   background-repeat: no-repeat;
-}
-.danImageContainer {
-  background: url("./images/golfImages/danTeaching.JPEG");
-  background-size: cover;
-  background-position: 50% 25%;
-  background-repeat: no-repeat;
-  height: 30rem;
-}
-.lessonsContainer {
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.row .lessonsContainer p {
-  font-size: 1.5rem;
-  text-transform: none;
-  font-weight: normal;
-  padding: 0 10%;
 }
 .timesHero {
   background: linear-gradient(var(--darkOverlay)),

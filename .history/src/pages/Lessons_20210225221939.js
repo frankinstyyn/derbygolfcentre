@@ -8,11 +8,10 @@ export default function Home() {
   return (
     <>
       <ProLessons />
-      {/* <Hero hero="lessonHero">
-        <Banner>
-          <button>Book a Lesson Now</button>
+      <Hero hero="lessonHero">
+      <Banner title="Lessons with a pro">
       </Banner>
-      </Hero> */}
+      </Hero>
       <Footer />
       </>
   );

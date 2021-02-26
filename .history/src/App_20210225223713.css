@@ -328,7 +328,7 @@ h6 {
 .contentContainer {
   position: relative;
   margin-bottom: 2%;
-  height: 100vh;
+  height: 80%;
 }
 .lessonHero {
   background: linear-gradient(var(--darkOverlay)), url("./images/danMain.jpeg");
@@ -341,12 +341,10 @@ h6 {
   background-size: cover;
   background-position: 50% 25%;
   background-repeat: no-repeat;
-  height: 30rem;
 }
 .lessonsContainer {
+  padding: 0 !important;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 .row .lessonsContainer p {
   font-size: 1.5rem;
