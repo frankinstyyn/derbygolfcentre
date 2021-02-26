@@ -10,8 +10,6 @@ html,
 body {
   overflow-x: hidden;
   padding-top: 65px;
-  height: 100%;
-  min-height: 100%;
 }
 body {
   position: relative;
@@ -311,7 +309,7 @@ h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 50vh;
 }
 .servicesHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -344,24 +342,6 @@ h6 {
   background-position: 50% 25%;
   background-repeat: no-repeat;
   height: 30rem;
-  display: flex;
-  justify-content: center;
-}
-.row .danImageContainer a {
-  width: 100%;
-  font-size: 2rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  color: black;
-  transition: 1.5s;
-  margin-bottom: 1%;
-}
-.row .danImageContainer a:hover {
-  color: white;
-}
-.row .danImageContainer button {
-  width: 15rem;
 }
 .lessonsContainer {
   text-align: center;
@@ -384,28 +364,6 @@ h6 {
 .rangeHero {
   background: linear-gradient(var(--darkOverlay)),
     url("./images/golfImages/drivingRange.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.lessonImageGrid {
-  height: 40rem;
-  margin: 2%;
-}
-.one {
-  background: url("./images/lessons/lesson3.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.two {
-  background: url("./images/lessons/lesson2.jpg");
-  background-size: contain;
-  background-position: center 50%;
-  background-repeat: no-repeat;
-}
-.three {
-  background: url("./images/lessons/lesson1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -437,10 +395,6 @@ h6 {
   .banner h1 {
     font-size: 3rem;
   }
-  .mainWording {
-    width: 80%;
-    margin: 0 auto;
-  }
 }
 @media screen and (min-width: 992px) {
   .banner {
@@ -452,10 +406,8 @@ h6 {
 }
 /* End of Banner */
 .mainWording {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  text-align: center;
-  margin-bottom: 4rem;
 }
 .shopWording {
   font-size: 1.5rem;
@@ -607,10 +559,9 @@ h6 {
   color: white;
 }
 .row p {
-  font-size: 2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 1%;
 }
 .row .col-sm-4 {
   flex: 0 0 32%;
@@ -716,7 +667,6 @@ h6 {
 .servicesBanner h1 {
   font-size: 3rem;
   padding: 1rem 0;
-  font-weight: 400;
 }
 .workImage {
   width: 90%;
@@ -726,6 +676,9 @@ h6 {
   .row .col-sm-4 {
     flex: 0 0 99%;
     max-width: 99%;
+  }
+  #i6 {
+    padding-top: 5rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -740,6 +693,9 @@ h6 {
 @media screen and (min-width: 992px) {
   #servicesContainer {
     max-width: 950px !important;
+  }
+  #i6 {
+    padding-top: 0;
   }
 }
 @media screen and (min-width: 1054px) {
@@ -969,12 +925,4 @@ span svg {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
-}
-
-/* Target iPhone to Tablet Screens */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  .lessonsContainer {
-    text-align: center;
-    margin: 3%;
-  }
 }

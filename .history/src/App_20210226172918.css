@@ -389,23 +389,22 @@ h6 {
   background-repeat: no-repeat;
 }
 .lessonImageGrid {
-  height: 40rem;
-  margin: 2%;
+  height: 20vh;
 }
 .one {
-  background: url("./images/lessons/lesson3.jpg");
+  background: url("./images/lessons/lesson1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .two {
   background: url("./images/lessons/lesson2.jpg");
-  background-size: contain;
-  background-position: center 50%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 .three {
-  background: url("./images/lessons/lesson1.jpg");
+  background: url("./images/lessons/lesson3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

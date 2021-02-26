@@ -389,7 +389,7 @@ h6 {
   background-repeat: no-repeat;
 }
 .lessonImageGrid {
-  height: 40rem;
+  height: 30rem;
   margin: 2%;
 }
 .one {
@@ -400,7 +400,7 @@ h6 {
 }
 .two {
   background: url("./images/lessons/lesson2.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center 50%;
   background-repeat: no-repeat;
 }

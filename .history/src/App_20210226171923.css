@@ -388,27 +388,14 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
-.lessonImageGrid {
-  height: 40rem;
-  margin: 2%;
-}
 .one {
-  background: url("./images/lessons/lesson3.jpg");
+  background: linear-gradient(var(--darkOverlay)), url("./images/danMain.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  height: 20rem;
 }
 .two {
-  background: url("./images/lessons/lesson2.jpg");
-  background-size: contain;
-  background-position: center 50%;
-  background-repeat: no-repeat;
-}
-.three {
-  background: url("./images/lessons/lesson1.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 /* End of Hero */
 /* Banner */

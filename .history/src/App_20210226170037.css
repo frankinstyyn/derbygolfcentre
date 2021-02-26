@@ -361,7 +361,7 @@ h6 {
   color: white;
 }
 .row .danImageContainer button {
-  width: 15rem;
+  width: 80%;
 }
 .lessonsContainer {
   text-align: center;
@@ -384,28 +384,6 @@ h6 {
 .rangeHero {
   background: linear-gradient(var(--darkOverlay)),
     url("./images/golfImages/drivingRange.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.lessonImageGrid {
-  height: 40rem;
-  margin: 2%;
-}
-.one {
-  background: url("./images/lessons/lesson3.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.two {
-  background: url("./images/lessons/lesson2.jpg");
-  background-size: contain;
-  background-position: center 50%;
-  background-repeat: no-repeat;
-}
-.three {
-  background: url("./images/lessons/lesson1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

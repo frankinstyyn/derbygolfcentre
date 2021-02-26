@@ -18,12 +18,15 @@ export class ProLessons extends Component {
                         <p>I work in a way you'll understand and ensure you go into your next range session feeling motivated, confident and excited.</p>
                     </div>
                 </div>
-                <div class="row lessonImageGrid">
-                    <div class="col-sm-12 col-md-6 col-lg-4 one">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 one">
+                        Dan1
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 two">
+                    <div class="col-sm-12 col-md-6 two">
+                        Dan2
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 three">
+                    <div class="col-sm-12 col-md-6 three">
+                        Dan3
                     </div>
                 </div>
             </div>

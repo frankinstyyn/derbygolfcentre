@@ -20,10 +20,13 @@ export class ProLessons extends Component {
                 </div>
                 <div class="row lessonImageGrid">
                     <div class="col-sm-12 col-md-6 col-lg-4 one">
+                        Dan1
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 two">
+                        Dan2
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 three">
+                        Dan3
                     </div>
                 </div>
             </div>
