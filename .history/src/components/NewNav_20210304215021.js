@@ -64,7 +64,6 @@ export default class NewNav extends Component {
                     <Nav className="ml-auto">
                             <Link
                             to="/"
-                            activeClassName="active"
                             spy={true}
                             smooth={true}
                         >
@@ -72,39 +71,40 @@ export default class NewNav extends Component {
                                 <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
                             </Link>
                         <Link
+                            activeClass="active"
                             to="/shop"
                             spy={true}
                             smooth={true}
                         >
-                            <Nav.Link activeClassName="active" id="nav-links" href="/shop">Shop</Nav.Link>
+                            <Nav.Link id="nav-links" href="/shop">Shop</Nav.Link>
                         </Link>
                     <Link
                             to="/lessons"
                             spy={true}
                             smooth={true}
                         >
-                            <Nav.Link activeClassName="active" href="/lessons">Book a Lesson</Nav.Link>
+                            <Nav.Link href="/lessons">Book a Lesson</Nav.Link>
                         </Link>
                         <Link
                             to="/opening-times"
                             spy={true}
                             smooth={true}
                         >
-                            <Nav.Link activeClassName="active" href="/about">Opening Times</Nav.Link>
+                            <Nav.Link href="/about">Opening Times</Nav.Link>
                         </Link>
                         <Link
                             to="/contact"
                             spy={true}
                             smooth={true}
                         >
-                            <Nav.Link activeClassName="active" href="/contact">Contact</Nav.Link>
+                            <Nav.Link href="/contact">Contact</Nav.Link>
                         </Link>
                         <Link
                             to="/driving-range"
                             spy={true}
                             smooth={true}
                         >
-                            <Nav.Link activeClassName="active" href="/driving-range">Driving Range</Nav.Link>
+                            <Nav.Link href="/driving-range">Driving Range</Nav.Link>
                             </Link>
                 </Nav>
 

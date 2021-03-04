@@ -6,11 +6,14 @@ export class ProLessons extends Component {
             <div className="">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 danImageContainer bookLesson">
-                        <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
-                            <button className="lessonButton">
-                                Book A Lesson
-                            </button>
-                        </a>
+                        <button>
+                            <p>
+                                <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
+                                    Book A Lesson
+                                </a>
+                            </p>
+                            
+                        </button>
                     </div>
                     <div class="col-sm-12 col-md-6 lessonsContainer">
                         <h1>Daniel Delaney - PGA Professional</h1>

@@ -201,7 +201,7 @@ h6 {
 .nav-link:hover {
   color: var(--mainWhite) !important;
   background-color: var(--primaryColor) !important;
-  transition: 0.3s;
+  transition: 0.7s;
   text-decoration: none !important;
   border: solid 2px black;
 }
@@ -209,7 +209,6 @@ h6 {
   background-color: var(--primaryColor);
   transition: 0.5s ease-in-out;
   border: 2px solid black;
-  color: white !important;
 }
 
 .navbar-nav a:hover {

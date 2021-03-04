@@ -13,11 +13,14 @@ export class GolfServices extends Component {
                                 <Link to="/driving-range" className="linkButton">Driving Range</Link>
                         </div>
                             <div class="col-xs-12 col-sm-4 golfShop">
-                                <Link to="/shop" className="linkButton">Golf Shop</Link>
+                                <Link to="/golf-shop" className="linkButton">Golf Shop</Link>
+                            {/* <button id="golfBtn">
+                              <p>Golf Shop</p> 
+                        </button> */}
                         </div>
-                            <div class="col-xs-12 col-sm-4 clubServices">
-                                <Link to="/club-services" className="linkButton">Club Services</Link>
-                            </div>
+                        <div class="col-xs-12 col-sm-4 clubServices"><button>
+                              <p>Club Services</p> 
+                        </button></div>
                         </div>
                         </div>
                 </div>

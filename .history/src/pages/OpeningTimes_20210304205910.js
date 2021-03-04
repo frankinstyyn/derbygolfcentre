@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Hero hero="timesHero">
         <Banner
-          title="Opening Hours" subtitle1="Monday - Friday: 10am - 6pm" subtitle2="Saturday & Sunday: 9am - 6pm"
+          title="Opening Hours" subtitle="Monday - Friday: 10am - 6pm"
         >
       </Banner>
           </Hero>

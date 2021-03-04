@@ -201,15 +201,8 @@ h6 {
 .nav-link:hover {
   color: var(--mainWhite) !important;
   background-color: var(--primaryColor) !important;
-  transition: 0.3s;
+  transition: 0.7s;
   text-decoration: none !important;
-  border: solid 2px black;
-}
-.active {
-  background-color: var(--primaryColor);
-  transition: 0.5s ease-in-out;
-  border: 2px solid black;
-  color: white !important;
 }
 
 .navbar-nav a:hover {
@@ -380,11 +373,10 @@ h6 {
 }
 .timesHero {
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/golfImages/rangeExternal.JPEG");
+    url("./images/golfImages/externalRange.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 45vh;
 }
 .rangeHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -616,7 +608,6 @@ h6 {
   height: 20%;
   transition: 1s;
   color: black;
-  padding: 5%;
 }
 .row .linkButton:hover {
   background-color: var(--mainBlack);
@@ -628,22 +619,7 @@ h6 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
-}
-.lessonButton {
-  position: relative;
-  top: 50%;
-  background-color: var(--primaryColor);
-  border: 5px solid black;
-  height: 20%;
-  transition: 1s;
-  color: black;
-  padding: 0 5%;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.lessonButton:hover {
-  background-color: black;
-  color: white;
+  margin-bottom: 1%;
 }
 .row .col-sm-4 {
   flex: 0 0 32%;
@@ -754,17 +730,6 @@ h6 {
 .workImage {
   width: 90%;
   margin-left: 15%;
-}
-#sub1 {
-  font-size: 3rem;
-}
-#sub2 {
-  font-size: 3rem;
-  padding-bottom: 25%;
-}
-#title1 {
-  margin-top: 25%;
-  font-size: 5rem;
 }
 @media screen and (min-width: 320px) {
   .row .col-sm-4 {
@@ -1020,20 +985,5 @@ span svg {
   .lessonsContainer {
     text-align: center;
     margin: 3%;
-  }
-  .timesHero {
-    height: 50vh;
-  }
-  #sub1 {
-    font-size: 2rem;
-    padding: 0 15%;
-  }
-  #sub2 {
-    font-size: 2rem;
-    padding: 0 10% 25%;
-  }
-  #title1 {
-    margin-top: 25%;
-    font-size: 3rem;
   }
 }

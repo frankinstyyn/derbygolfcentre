@@ -5,12 +5,12 @@ export class ProLessons extends Component {
         return (
             <div className="">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 danImageContainer bookLesson">
-                        <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
-                            <button className="lessonButton">
+                    <div class="col-sm-12 col-md-6 danImageContainer">
+                        <button>
+                            <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
                                 Book A Lesson
-                            </button>
-                        </a>
+                            </a>
+                        </button>
                     </div>
                     <div class="col-sm-12 col-md-6 lessonsContainer">
                         <h1>Daniel Delaney - PGA Professional</h1>
@@ -23,9 +23,9 @@ export class ProLessons extends Component {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-3 two">
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 four">
-                    </div>
                     <div class="col-sm-12 col-md-6 col-lg-3 three">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 four">
                     </div>
                 </div>
             </div>

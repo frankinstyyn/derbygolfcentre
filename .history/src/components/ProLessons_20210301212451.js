@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 export class ProLessons extends Component {
     render() {
@@ -6,11 +7,15 @@ export class ProLessons extends Component {
             <div className="">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 danImageContainer bookLesson">
-                        <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
-                            <button className="lessonButton">
-                                Book A Lesson
-                            </button>
-                        </a>
+                        <Link to="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson" className="linkButton">Book A Lesson</Link>
+                        {/* <button>
+                            <p>
+                                <a href="mailto:ddelaneygolf@gmail.com?subject=Golf Lesson">
+                                    Book A Lesson
+                                </a>
+                            </p>
+                            
+                        </button> */}
                     </div>
                     <div class="col-sm-12 col-md-6 lessonsContainer">
                         <h1>Daniel Delaney - PGA Professional</h1>

@@ -64,12 +64,11 @@ export default class NewNav extends Component {
                     <Nav className="ml-auto">
                             <Link
                             to="/"
-                            activeClassName="active"
                             spy={true}
                             smooth={true}
                         >
                             
-                                <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
+                                <Nav.Link activeClassName="active" eventKey="1" as={Link} to="/">Home</Nav.Link>
                             </Link>
                         <Link
                             to="/shop"
