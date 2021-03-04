@@ -9,6 +9,9 @@
 html,
 body {
   overflow-x: hidden;
+  padding-top: 65px;
+  height: 100%;
+  min-height: 100%;
 }
 body {
   position: relative;
@@ -27,6 +30,7 @@ body {
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --whiteOverlay: rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3);
   --darkOverlay: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
+  --lessonOverlay: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
 /* globals */
 body {
@@ -197,8 +201,15 @@ h6 {
 .nav-link:hover {
   color: var(--mainWhite) !important;
   background-color: var(--primaryColor) !important;
-  transition: 0.7s;
+  transition: 0.3s;
   text-decoration: none !important;
+  border: solid 2px black;
+}
+.active {
+  background-color: var(--primaryColor);
+  transition: 0.5s ease-in-out;
+  border: 2px solid black;
+  color: white !important;
 }
 
 .navbar-nav a:hover {
@@ -303,16 +314,15 @@ h6 {
   vertical-align: middle;
   padding: 0;
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/rangeBalls.jpg");
+    url("./images/rangeBalls.JPEG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 50vh;
-  margin-top: 10%;
+  height: 35vh;
 }
 .servicesHero {
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/rangeBalls.jpg");
+    url("./images/rangeBalls.JPEG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -324,19 +334,57 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
 }
+.contentContainer {
+  position: relative;
+  margin-bottom: 2%;
+  height: 100vh;
+}
 .lessonHero {
-  background: linear-gradient(var(--darkOverlay)),
-    url("./images/golfImages/proShop.jpeg");
+  background: linear-gradient(var(--darkOverlay)), url("./images/danMain.jpeg");
   background-size: cover;
-  background-position: center center;
+  background-position: 50% 25%;
   background-repeat: no-repeat;
+}
+.danImageContainer {
+  background: url("./images/golfImages/danTeaching.JPEG");
+  background-size: cover;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+.row .danImageContainer a {
+  width: 100%;
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+  transition: 1.5s;
+  margin-bottom: 1%;
+}
+.row .danImageContainer a:hover {
+  color: white !important;
+}
+.lessonsContainer {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row .lessonsContainer p {
+  font-size: 1.5rem;
+  text-transform: none;
+  font-weight: normal;
+  padding: 0 10%;
 }
 .timesHero {
   background: linear-gradient(var(--darkOverlay)),
-    url("./images/golfImages/externalRange.jpeg");
+    url("./images/golfImages/rangeExternal.JPEG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  height: 45vh;
 }
 .rangeHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -344,6 +392,38 @@ h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+.lessonImageGrid {
+  height: 40rem;
+  margin: 2%;
+}
+.one {
+  background: url("./images/lessons/lesson3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: solid 3px white;
+}
+.two {
+  background: url("./images/lessons/lesson2.jpg");
+  background-size: contain;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  border: solid 3px white;
+}
+.three {
+  background: url("./images/lessons/lesson1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: solid 3px white;
+}
+.four {
+  background: url("./images/golfImages/golfTech.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: solid 3px white;
 }
 /* End of Hero */
 /* Banner */
@@ -372,6 +452,10 @@ h6 {
   .banner h1 {
     font-size: 3rem;
   }
+  .mainWording {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 992px) {
   .banner {
@@ -383,8 +467,10 @@ h6 {
 }
 /* End of Banner */
 .mainWording {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 .shopWording {
   font-size: 1.5rem;
@@ -506,14 +592,14 @@ h6 {
   text-transform: uppercase;
 }
 .drivingRange {
-  background-image: url("./images/drivingRange.jpg");
+  background-image: url("./images/drivingRange.JPEG");
   margin-left: 1.5% !important;
 }
 .golfShop {
-  background-image: url("./images/golfImages/golfShop.jpeg");
+  background-image: url("./images/golfImages/golfShop.jpg");
 }
 .clubServices {
-  background-image: url("./images/golfImages/clubServices.jpeg");
+  background-image: url("./images/golfImages/clubServices.jpg");
 }
 #golfBtn {
   background-color: var(--mainWhite);
@@ -521,7 +607,7 @@ h6 {
 #golfBtn:hover {
   background-color: var(--mainBlack);
 }
-.row button {
+.row .linkButton {
   position: relative;
   top: 50%;
   background-color: var(--primaryColor);
@@ -529,16 +615,35 @@ h6 {
   width: 90%;
   height: 20%;
   transition: 1s;
+  color: black;
+  padding: 5%;
 }
-.row button:hover {
+.row .linkButton:hover {
   background-color: var(--mainBlack);
   border: 5px solid var(--mainBlack);
-  color: white;
+  color: white !important;
+  text-decoration: none;
 }
-.row p {
-  font-size: 2.8rem;
+.row .linkButton {
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
+}
+.lessonButton {
+  position: relative;
+  top: 50%;
+  background-color: var(--primaryColor);
+  border: 5px solid black;
+  height: 20%;
+  transition: 1s;
+  color: black;
+  padding: 0 5%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.lessonButton:hover {
+  background-color: black;
+  color: white;
 }
 .row .col-sm-4 {
   flex: 0 0 32%;
@@ -643,19 +748,28 @@ h6 {
 }
 .servicesBanner h1 {
   font-size: 3rem;
-  padding-top: 1rem;
+  padding: 1rem 0;
+  font-weight: 400;
 }
 .workImage {
   width: 90%;
   margin-left: 15%;
 }
+#sub1 {
+  font-size: 3rem;
+}
+#sub2 {
+  font-size: 3rem;
+  padding-bottom: 30%;
+}
+#title1 {
+  margin-top: 30%;
+  font-size: 5rem;
+}
 @media screen and (min-width: 320px) {
   .row .col-sm-4 {
     flex: 0 0 99%;
     max-width: 99%;
-  }
-  #i6 {
-    padding-top: 5rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -670,9 +784,6 @@ h6 {
 @media screen and (min-width: 992px) {
   #servicesContainer {
     max-width: 950px !important;
-  }
-  #i6 {
-    padding-top: 0;
   }
 }
 @media screen and (min-width: 1054px) {
@@ -703,7 +814,6 @@ span svg {
 .shopButton:hover {
   background-color: var(--mainBlack);
   color: white;
-  text-transform: uppercase;
 }
 
 /* Footer */
@@ -903,4 +1013,27 @@ span svg {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+/* Target iPhone to Tablet Screens */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .lessonsContainer {
+    text-align: center;
+    margin: 3%;
+  }
+  .timesHero {
+    height: 50vh;
+  }
+  #sub1 {
+    font-size: 2rem;
+    padding: 0 15%;
+  }
+  #sub2 {
+    font-size: 2rem;
+    padding: 0 10% 25%;
+  }
+  #title1 {
+    margin-top: 25%;
+    font-size: 3rem;
+  }
 }
