@@ -15,12 +15,8 @@ export default function Home() {
           subtitle2="Saturday & Sunday: 9am - 6pm"
         >
         </Banner>
-      </Hero>
-      <a href="tel:01332661414">
-                            <button className="callButton">
-                                Call us: 01332 661414
-                            </button>
-                        </a>
+        <Link to="01332661414" className="callButton">Call us: 01332 661414</Link>
+          </Hero>
           <Map />
       <Footer />
       </>

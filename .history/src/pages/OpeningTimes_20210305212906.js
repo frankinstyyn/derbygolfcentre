@@ -16,11 +16,7 @@ export default function Home() {
         >
         </Banner>
       </Hero>
-      <a href="tel:01332661414">
-                            <button className="callButton">
-                                Call us: 01332 661414
-                            </button>
-                        </a>
+      <Link to="01332661414" className="callButton">Call us: 01332 661414</Link>
           <Map />
       <Footer />
       </>

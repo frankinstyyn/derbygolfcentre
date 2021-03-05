@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero hero="servicesHero">
-      <Banner title="A Fully stocked pro shop">
+      <Banner title="Club Services">
       </Banner>
       </Hero>
       <Footer />

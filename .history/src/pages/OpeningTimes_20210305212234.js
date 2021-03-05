@@ -13,14 +13,11 @@ export default function Home() {
           title="Opening Hours"
           subtitle1="Monday - Friday: 10am - 6pm"
           subtitle2="Saturday & Sunday: 9am - 6pm"
+          subtitle3=""
         >
-        </Banner>
-      </Hero>
-      <a href="tel:01332661414">
-                            <button className="callButton">
-                                Call us: 01332 661414
-                            </button>
-                        </a>
+          <Link to="01332661414" className="linkButton">Call us: 01332 661414</Link>
+      </Banner>
+          </Hero>
           <Map />
       <Footer />
       </>
