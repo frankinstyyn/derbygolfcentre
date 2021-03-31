@@ -402,7 +402,7 @@ h6 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 45vh;
+  height: 55vh;
 }
 .rangeHero {
   background: linear-gradient(var(--darkOverlay)),
@@ -665,7 +665,7 @@ h6 {
 }
 .callButton {
   position: absolute;
-  top: 57.5%;
+  top: 69.5%;
   background-color: var(--primaryColor);
   border: 5px solid black;
   transition: 1s;
@@ -1077,5 +1077,6 @@ span svg {
   }
   .callButton {
     left: 14%;
+    top: 61%;
   }
 }
