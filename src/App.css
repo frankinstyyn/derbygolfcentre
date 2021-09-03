@@ -1077,6 +1077,7 @@ span svg {
   }
   .callButton {
     left: 14%;
-    top: 61%;
+    bottom: 22%;
+    margin-top: 10px;
   }
 }
