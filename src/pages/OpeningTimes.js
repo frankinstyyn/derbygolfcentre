@@ -12,7 +12,7 @@ export default function Home() {
         <Banner
           title="Opening Hours"
           subtitle1="Monday - Friday: 10am - 8pm"
-          subtitle2="Saturday & Sunday: 10am - 7pm"
+          subtitle2="Saturday & Sunday: 10am - 6pm"
           subtitle3="Last baskets 45 minutes before closing"
         >
         </Banner>
