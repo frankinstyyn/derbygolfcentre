@@ -13,9 +13,9 @@ export class DrivingRangeInfo extends Component {
                     <div class="col-sm-12 col-md-6 rangeContainer">
                         <h1>Ball Prices</h1>
                         <ul>
-                            <li>100 Balls - £6.00</li>
-                            <li>60 Balls - £4.00</li>
-                            <li>30 Balls - £2.50</li>
+                            <li>100 Balls - £6.50</li>
+                            <li>60 Balls - £4.50</li>
+                            <li>30 Balls - £3.00</li>
                         </ul>
                         <h1>Special Offers</h1>
                         <ul>
