@@ -19,8 +19,8 @@ export class DrivingRangeInfo extends Component {
                         </ul>
                         <h1>Special Offers</h1>
                         <ul>
-                            <li>5 x 100 Ball Tokens - £25.00</li>
-                            <li>5 x 60 Ball Tokens - £17.50</li>
+                            <li>5 x 100 Ball Tokens - £28.00</li>
+                            <li>5 x 60 Ball Tokens - £19.00</li>
                         </ul>
                     </div>
                 </div>
