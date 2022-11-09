@@ -11,7 +11,7 @@ export default function Home() {
       <Hero hero="timesHero">
         <Banner
           title="Opening Hours"
-          subtitle1="Monday - Friday: 10am - 8pm"
+          subtitle1="Monday - Friday: 10am - 6pm"
           subtitle2="Saturday & Sunday: 10am - 6pm"
           subtitle3="Last baskets 60 minutes before closing"
         >
