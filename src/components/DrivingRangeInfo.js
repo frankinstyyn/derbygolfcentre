@@ -13,14 +13,14 @@ export class DrivingRangeInfo extends Component {
                     <div class="col-sm-12 col-md-6 rangeContainer">
                         <h1>Ball Prices</h1>
                         <ul>
-                            <li>100 Balls - £6.50</li>
-                            <li>60 Balls - £4.50</li>
+                            <li>100 Balls - £7.00</li>
+                            <li>60 Balls - £5.00</li>
                             <li>30 Balls - £3.00</li>
                         </ul>
                         <h1>Special Offers</h1>
                         <ul>
-                            <li>5 x 100 Ball Tokens - £28.00</li>
-                            <li>5 x 60 Ball Tokens - £19.00</li>
+                            <li>5 x 100 Ball Tokens - £30.00</li>
+                            <li>5 x 60 Ball Tokens - £22.00</li>
                         </ul>
                     </div>
                 </div>
