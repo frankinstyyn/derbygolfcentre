@@ -4,7 +4,11 @@ import { Nav, Navbar } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
 import { HashLink as Link } from 'react-router-hash-link';
+import axios from "axios";
 
+axios.get("http://localhost:1337/api/golf-clubs").then((response) => {
+  console.log(response);
+});
 
 export default class NewNav extends Component {
     state = {
